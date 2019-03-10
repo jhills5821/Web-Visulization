@@ -7,10 +7,11 @@
 }
 
 #navdetail {
-    background: white
+    background: white;
+    text-align:center
 }
 .navdetail {
-    test-align: left;
+    text-align: left;
 }
 
 #bodycolor {
