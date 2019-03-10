@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <title>Weather Dashboard</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body id="bodycolor">
+    <nav class="navbar navbar-default" id="navdetail">
+        <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" id = "headline" href="#">Weather Dashboard</a>
+            </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="comparison.html">Comparison</a></li>
+                    <li><a href="data.html">Data</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <div class="container">
+        <!-- First Row -->
+        <div class="row">
+            <!-- First (and only column) -->
+            <div class="col-8">
+
+                <div class = "box" id="navdetail">
+                    <h1>Summary</h1>
+                    <img src="Figures/City Latitude vs. Max Temperature.png" width="150" height="100"> <p>Test summarry information text test test etcs</p>
+                </div>
+            </div>
+            <div class="col-4">
+
+                <h1>Visualizations</h1>
+                <span class="border-bottom"></span>
+                <div class="row">
+                    <div class="col-2">
+                        <div class = "box">
+                            <a href="max-temp.html">
+                            <img src="Figures/City Latitude vs. Max Temperature.png" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class = "box">
+                            <a href="humidity.html">
+                            <img src="Figures/City Latitude vs. Humidity.png" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <div class = "box">
+                            <a href="cloudiness.html">
+                            <img src="Figures/City Latitude vs. Cloudiness.png" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="box" >
+                            <a href="wind-speed.html">
+                            <img src="Figures/City Latitude vs. Wind Speed.png" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <a class="navbar-brand" class = "text-center" href="#">Fixed bottom</a>
+    </nav>
