@@ -1,30 +1,41 @@
 /* Giving our navbar some padding and a background color */
-
-#headline {
-    background: teal;
-    padding: 20px;
-    color: #fff;
+#bodycolor {
+    background: gray;
 }
 
 #navdetail {
     background: white;
     text-align:center
 }
-.navdetail {
-    text-align: left;
-}
 
-#bodycolor {
-    background: gray;
+#headline {
+    background: teal;
+    margin-left: 20px;
+    color: #fff;
 }
-
-#boxpadding {
-    padding: 20px 20px 20px 20px;
-    background: white;
+#img_float {
+    float:left;
 }
-.h1 { 
+h1 { 
     color: teal;
-    background: white;
     font: "comic sans ms", cursive, sans-serif;
-    padding-right: 20px
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#box_detail {
+    background: white;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+hr {
+    display: block;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#navbar_bottom {
+    color: white;
+    background: darkgray;
+    text-align:center;
 }
