@@ -1,4 +1,4 @@
-/* Giving our navbar some padding and a background color */
+
 #bodycolor {
     background: gray;
 }
@@ -38,4 +38,10 @@ hr {
     color: white;
     background: darkgray;
     text-align:center;
+    margin-top: 20px;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color:teal;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
