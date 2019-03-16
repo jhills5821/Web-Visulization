@@ -2,7 +2,7 @@
     <html lang="en">
     <head> 
         <meta charset="UTF-8">
-        <title>Weather Dashboard</title>
+        <title>Comparison</title>
     
       <!-- Bring in our bootstrap stylesheet -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -31,7 +31,7 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="max-temp.html">Max Temperature</a></li>
+                                <li><a href="Pmax-temp.html">Max Temperature</a></li>
                                 <li><a href="humidity.html">Humidity</a></li>
                                 <li><a href="cloudiness.html">Cloudiness</a></li>
                                 <li><a href="wind-speed.html">Wind Speed</a></li>
@@ -48,26 +48,41 @@
     
         <div class="container">
             <!-- First Row -->
-            <div class="row">
+            <div class="row" id="box_detail">
             <h1> Comparison </h1>
-            <p> Click any plot to get and in-depth analysis</p>
+            <hr>
+                <p>Click any plot to get and in-depth analysis</p>
             </div>
-            <div class="row">
+            <div class="row" id="box_detail">
                 <!-- First (and only column) -->
-                <div class="col-md-6">
-                    <h1>Summary</h1>
+                <div class="col-12 col-md-6">
+                    <h3>Max Temperature</h3>
                     <article>
-                    <a target="_blank" href="Figures/City Latitude vs. Cloudiness.png">
-                    <img src="Figures/City Latitude vs. Cloudiness.png" alt="Cloudy Map">
-                    <p>Test summarry information text test test etcs</p>
+                    <a target="_blank" href="max-temp.html">
+                    <img id="img_float_center" src="Figures/City Latitude vs. Max Temperature.png" class="img-responsive">
                 </div>
                 <div class="col-md-6">
-                    <h1>WeatherPy</h1>
+                    <h3>Humidity</h3>
                     <article>
-                    <a target="_blank" href="Figures/City Latitude vs. Cloudiness.png">
-                    <img src="Figures/City Latitude vs. Cloudiness.png" alt="Cloudy Map">
+                    <a target="_blank" href="humidity.html">
+                    <img id="img_float_center" src="Figures/City Latitude vs. Humidity.png" class="img-responsive">
                     </a>
-                    <p><em>Cloudy Map</em></p>
+                </div>
+            </div>
+            <div class="row" id="box_detail">
+                    <!-- First (and only column) -->
+                <div class="col-md-6">
+                    <h3>Cloudiness</h3>
+                    <article>
+                    <a target="_blank" href="cloudiness.html">
+                    <img id="img_float_center" src="Figures/City Latitude vs. Cloudiness.png" class="img-responsive">
+                </div>
+                <div class="col-md-6">
+                    <h3>Wind Speed</h3>
+                    <article>
+                    <a target="_blank" href="wind-speed.html">
+                    <img id="img_float_center" src="Figures/City Latitude vs. Wind Speed.png" class="img-responsive">
+                    </a>
                 </div>
             </div>
         </div>

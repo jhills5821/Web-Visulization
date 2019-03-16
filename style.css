@@ -16,16 +16,18 @@
 #img_float {
     float:left;
 }
+
 h1 { 
     color: teal;
     font: "comic sans ms", cursive, sans-serif;
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 #box_detail {
     background: white;
     padding-bottom: 20px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 hr {
     display: block;
@@ -44,4 +46,26 @@ hr {
     border-top-color:teal;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+h3 { 
+    color: teal;
+    font: "comic sans ms", cursive, sans-serif;
+    text-align: center;
+}
+
+#img_float_center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#table_detail {
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
 }
