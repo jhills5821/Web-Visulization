@@ -1,6 +1,6 @@
 
 #bodycolor {
-    background: gray;
+    background:#44008B;
 }
 
 #navdetail {
@@ -9,17 +9,18 @@
 }
 
 #headline {
-    background: teal;
+    background:#9F45B0;
     margin-left: 20px;
     color: #fff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 #img_float {
     float:left;
 }
 
 h1 { 
-    color: teal;
-    font: "comic sans ms", cursive, sans-serif;
+    color: #9F45B0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     padding-left: 20px;
     padding-top: 10px;
 }
@@ -38,19 +39,20 @@ hr {
 
 #navbar_bottom {
     color: white;
-    background: darkgray;
+    background: #E54ED0;
     text-align:center;
     margin-top: 20px;
     border-top-style: solid;
     border-top-width: 5px;
-    border-top-color:teal;
+    border-top-color:#9F45B0;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 h3 { 
-    color: teal;
-    font: "comic sans ms", cursive, sans-serif;
+    color: #9F45B0;
+    font-family: "Comic Sans MS", cursive, sans-serif;;
     text-align: center;
 }
 
@@ -68,4 +70,10 @@ p {
     background: white;
     margin-left: auto;
     margin-right: auto;
+}
+
+#img_box:hover {
+    border-style: solid;
+    border-color: #9F45B0;
+    border-width: 1px;
 }
